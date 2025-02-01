@@ -11,3 +11,12 @@ A modern frontend application built with React.js, containerized with Docker, an
 - [🚀 Deployment with Helm & Kubernetes](#-deployment-with-helm--kubernetes)
 - [📜 License](#-license)
 - [👨‍💻 Author](#-author)
+  
+## 🌟 Features
+✅ Modern UI with **React.js and Vite**  
+✅ Fully responsive design  
+✅ Automated CI/CD using **Jenkins**  
+✅ Containerized using **Docker**  
+✅ Kubernetes deployment with **Helm**  
+✅ Security scanning with **Trivy & SonarQube**  
+✅ Deployed to **AWS**  

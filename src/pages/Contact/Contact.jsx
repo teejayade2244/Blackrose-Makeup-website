@@ -56,7 +56,7 @@ function Contact() {
     const handleEnquiryChange = (e) => {
         if (
             e.target.value === "Bridal Makeup" ||
-            e.target.value === "Face Makeup"
+            e.target.value === "Casual Makeup"
         ) {
             setShowLocationOptions(true)
         } else {
@@ -209,10 +209,10 @@ function Contact() {
                             <motion.div className="flex flex-col gap-y-3 font-Italiana font-light">
                                 <motion.div>
                                     <RadioInput
-                                        id="Face Makeup"
+                                        id="Casual Makeup"
                                         name="EnquiryDetails"
-                                        value="Face Makeup"
-                                        label="Face Makeup"
+                                        value="Casual Makeup"
+                                        label="Casual Makeup"
                                         register={register}
                                         onChange={handleEnquiryChange}
                                     />

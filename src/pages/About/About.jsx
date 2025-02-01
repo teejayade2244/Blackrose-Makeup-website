@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Layout from "../../components/Layout"
-import image2 from "../../images/blackrose 2.jpg"
-import image3 from "../../images/images (16).jpg"
-// import image4 from "../../images/images (7).jpg"
-import image1 from "../../images/images (10).jpg"
-import image5 from "../../images/blackrose 1.jpg"
+import image2 from "../../images/founder.jpg"
+import image3 from "../../images/team1.jpg"
+import image1 from "../../images/team 3.jpg"
+import image6 from "../../images/team2.jpg"
+// import image5 from "../../images/founder.jpg"
 // import { ImQuotesLeft } from "react-icons/im"
 import { BiSolidQuoteAltRight } from "react-icons/bi"
 // Updated path to video
@@ -67,7 +67,7 @@ function About() {
                             MEET THE FOUNDER
                         </h2>
                         <h1 className="text-4xl font-spectral md:text-3xl lg:text-5xl font-bold mt-2 md:mb-4">
-                            Akande Grace
+                            FASANYA OLUWATOBI
                         </h1>
                         <p className="mt-4 leading-relaxed font-Sedan text-[16px] md:text-[20px]">
                             "Welcome to the world of Blackrose, where makeup
@@ -130,7 +130,7 @@ function About() {
                         <div className="relative cursor-pointer">
                             <div className="border-4 border-[#939794] transform transition-transform duration-300 ease-in-out hover:scale-105 ">
                                 <img
-                                    src={image5}
+                                    src={image2}
                                     alt="Monalisa"
                                     className="md:w-[270px] w-[300px]  h-[350px] md:h-[200px] lg:h-[350px] object-cover "
                                     loading="lazy"
@@ -139,7 +139,24 @@ function About() {
 
                             <div className="absolute -bottom-5 md:left-6 left-9 border border-[#9b98aa]">
                                 <h2 className="bg-black  py-3 px-4 w-56 text-white text-[12px] text-center cursor-pointer">
-                                    Blackrose / Head Makeup Artist
+                                    Blackrose / Creative Director & Educator
+                                </h2>
+                            </div>
+                        </div>
+                        <div className="relative cursor-pointer">
+                            <div className="border-4 border-[#939794] transform transition-transform duration-300 ease-in-out hover:scale-105">
+                                <img
+                                    src={image6}
+                                    alt="Monalisa"
+                                    className="md:w-[270px] w-[300px]  h-[350px] md:h-[200px] lg:h-[350px] "
+                                    loading="lazy"
+                                />
+                            </div>
+
+                            <div className="absolute -bottom-5 md:left-6 left-9 border border-[#9b98aa]">
+                                <h2 className="bg-black  py-3 px-4 w-56 text-white text-[12px] text-center cursor-pointer">
+                                    Grace / Graphics Designer & Multimedia
+                                    Designer
                                 </h2>
                             </div>
                         </div>
@@ -156,39 +173,24 @@ function About() {
 
                             <div className="absolute -bottom-5 md:left-6 left-9 border border-[#9b98aa]">
                                 <h2 className="bg-black  py-3 px-4 w-56 text-white text-[12px] text-center cursor-pointer">
-                                    Monalisa / Makeup Artist
+                                    Ayomide / Makeup Artist
                                 </h2>
                             </div>
                         </div>
-                        <div className="relative cursor-pointer">
-                            <div className="border-4 border-[#939794] transform transition-transform duration-300 ease-in-out hover:scale-105">
-                                <img
-                                    src={image5}
-                                    alt="Monalisa"
-                                    className="md:w-[270px] w-[300px]  h-[350px] md:h-[200px] lg:h-[350px] "
-                                    loading="lazy"
-                                />
-                            </div>
 
-                            <div className="absolute -bottom-5 md:left-6 left-9 border border-[#9b98aa]">
-                                <h2 className="bg-black  py-3 px-4 w-56 text-white text-[12px] text-center cursor-pointer">
-                                    Emily / Makeup Artist
-                                </h2>
-                            </div>
-                        </div>
                         <div className="relative cursor-pointer">
                             <div className="border-4 border-[#939794] transform transition-transform duration-300 ease-in-out hover:scale-105">
                                 <img
                                     src={image1}
                                     alt="Monalisa"
-                                    className="md:w-[270px] w-[300px]  h-[350px] md:h-[200px] lg:h-[350px] "
+                                    className="md:w-[270px] w-[300px]  h-[350px] md:h-[200px] lg:h-[350px] object-cover"
                                     loading="lazy"
                                 />
                             </div>
 
                             <div className="absolute -bottom-5 md:left-6 left-9 border border-[#9b98aa]">
                                 <h2 className="bg-black py-3 px-4 w-56 text-white text-[12px] text-center cursor-pointer">
-                                    Tyla / Makeup Artist
+                                    Natalie / Secretary
                                 </h2>
                             </div>
                         </div>

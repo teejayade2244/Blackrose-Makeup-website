@@ -34,8 +34,8 @@ function Home() {
                             <p className="text-center text-[24px] font-cinzel">
                                 Welcome to
                             </p>
-                            <h1 className="font-Sedan uppercase font-bold md:text-5xl text-4xl text-center mb-4 mt-2">
-                                Black Rose MUA
+                            <h1 className="font-Sedan uppercase font-bold md:text-5xl text-2xl text-center mb-4 mt-2">
+                                BlackRose Makeup Artistry
                             </h1>
                             <p className="text-center font-light text-[11px] md:text-[13px] lg:text-[20px] font-Sans mb-3">
                                 We believe in beauty that empowers. Our makeup

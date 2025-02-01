@@ -91,13 +91,13 @@ function Services() {
                         {[
                             {
                                 img: makeup,
-                                title: "FACE MAKEUP",
-                                desc: "Transform your look with expert face makeup services from Blackrose. We specializes in creating stunning looks tailored to enhance your natural features and bring out your unique beauty.",
+                                title: "BIRTHDAY GLAM",
+                                desc: "TTransform your special day with expert birthday glam by our skilled makeup artist. From radiant makeup to a flawless finish, we create the perfect look that celebrates you with beauty and elegance.",
                                 onClick: openFaceModal,
                             },
                             {
                                 img: hair,
-                                title: "EYE MAKEUP",
+                                title: "EDITORIAL MAKEUP",
                                 desc: "Discover the artistry of our skilled makeup artist specializing in exquisite eye makeup. From sultry smoky eyes to elegant natural looks, our artist transforms your eyes into captivating focal points.",
                                 onClick: openEyeModal,
                             },
@@ -109,8 +109,8 @@ function Services() {
                             },
                             {
                                 img: beauty,
-                                title: "HAIR MAKEUP",
-                                desc: "Experience the artistry of our talented makeup artist who specializes in hair makeup. From bridal glam to red carpet elegance, our artist brings creativity and expertise to every hairstyle.",
+                                title: "COMMERCIAL MAKEUP",
+                                desc: "Experience the artistry of our skilled on-set commercial makeup artist, specializing in both makeup and hairstyling. From creating flawless looks for TVCs to perfecting hair and makeup for high-fashion shoots, our expert brings creativity and precision to every project.",
                             },
                         ].map((service, index) => (
                             <motion.div

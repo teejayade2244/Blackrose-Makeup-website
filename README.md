@@ -20,3 +20,30 @@ A modern frontend application built with React.js, containerized with Docker, an
 ✅ Kubernetes deployment with **Helm**  
 ✅ Security scanning with **Trivy & SonarQube**  
 ✅ Deployed to **AWS**  
+
+## 🔧 Installation
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+### **2️⃣ Install Dependencies**
+```sh
+npm install  # or yarn install
+```
+
+## 📂 Project Structure
+```
+/your-repo
+│── /public          # Static assets
+│── /src             # Source code
+│── /tests           # Test cases
+│── .github/workflows # CI/CD pipeline
+│── Jenkinsfile      # Jenkins pipeline configuration
+│── Dockerfile       # Docker container setup
+│── helm-chart/      # Helm configuration for Kubernetes
+│── README.md        # Documentation
+│── package.json     # Project metadata
+```
